@@ -7,9 +7,6 @@ import models
 from datetime import datetime
 
 
-Base = declarative_base()
-
-
 class BaseModel:
     """ Base Model for all other classes """
     id = Column(String(60), unique=True, nullable=False, primary_key=True)
