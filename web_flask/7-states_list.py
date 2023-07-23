@@ -6,7 +6,7 @@
     - /states_list: display a HTML page: (inside the tag BODY)
 """
 
-from models import storage
+from models import storage  
 from flask import Flask, render_template
 app = Flask(__name__)
 
